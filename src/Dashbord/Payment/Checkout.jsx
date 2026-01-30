@@ -111,7 +111,7 @@ const Checkout = ({ course }) => {
         </label>
 
         {/* Improved container for better CardElement visibility */}
-        <div className="p-5 border border-gray-300 rounded-xl bg-white focus-within:border-indigo-600 focus-within:ring-4 focus-within:ring-indigo-100 transition-all h-14 flex items-center">
+        <div className="p-5 border border-gray-300 rounded-xl bg-white focus-within:border-indigo-600 focus-within:ring-4 focus-within:ring-indigo-100 transition-all min-h-[70px]">
           <CardElement
             options={{
               style: {
