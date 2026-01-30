@@ -51,7 +51,7 @@ const CoursePlayer = () => {
       {/* Header */}
       <div className="bg-base-100 shadow-md">
         <div className="max-w-7xl mx-auto p-6 flex items-center gap-4">
-          <Link to="/dashbord/myclasses" className="btn btn-ghost btn-circle">
+          <Link to="/dashbord" className="btn btn-ghost btn-circle">
             <HiArrowLeft className="text-2xl" />
           </Link>
           <div>

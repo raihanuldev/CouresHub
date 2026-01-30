@@ -87,7 +87,7 @@ const Checkout = ({ course }) => {
         courseName: course?.name,
       };
 
-      instance.post("/payments", paymentData).then((res) => {
+      instance.post("/pay/payments", paymentData).then((res) => {
         if (res.data?.insertedId) {
           Swal.fire({
             icon: "success",
