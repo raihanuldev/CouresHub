@@ -48,12 +48,13 @@ const AdminUserTableRow = ({ user, index, refetch }) => {
       icon: "question",
       showCancelButton: true,
       confirmButtonText: "Yes",
+      confirmButtonColor: "#000000",
     });
     if (!result.isConfirmed) return;
 
     setLoading(true);
     try {
-      await instance.put(`/user/make-instructor/${user._id}`);
+      await instance.put(`/instructor/make-instructor/${user._id}`);
       refetch();
       Swal.fire("Success", "User is now Instructor", "success");
     } catch {
@@ -67,7 +68,7 @@ const AdminUserTableRow = ({ user, index, refetch }) => {
       <td className="font-medium">{index}</td>
       <td>
         <div className="flex items-center gap-3">
-          
+
           <div>
             <div className="font-bold">{user.name}</div>
           </div>
