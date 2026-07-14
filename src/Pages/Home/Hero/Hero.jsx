@@ -22,7 +22,7 @@ const Hero = () => {
               <Link to="/courses" className="btn btn-primary btn-md shadow-lg">
                 Explore Courses Hub
               </Link>
-              <Link to="/dashboard" className="btn btn-outline btn-secondary btn-md">
+              <Link to="/dashbord" className="btn btn-outline btn-secondary btn-md">
                 Go to My Learning Dashboard
               </Link>
             </div>

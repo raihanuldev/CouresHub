@@ -1,76 +1,145 @@
-# SpeakUp - Online Learning Platform
+# CourseHub - Modern Learning Management System (LMS)
 
-SpeakUp is a comprehensive online learning platform that empowers students to explore, purchase, and engage in educational courses. The platform provides a user-friendly interface for accessing video modules, quizzes, assignments, and community discussions. SpeakUp facilitates seamless course management, secure payments through Stripe with SSL Commerce, and encourages a sense of community among students.
+CourseHub is a full-stack Learning Management System (LMS) where students can discover, purchase, and enroll in courses, instructors can create and manage educational content, and administrators can moderate the platform through a comprehensive role-based dashboard.
 
-## Features
+The platform provides secure authentication, online payments, course approval workflows, and a modern learning experience powered by React, Node.js, Express.js, MongoDB, and Firebase.
 
-- **Course Catalog:**
-  - Browse a diverse range of courses with detailed descriptions, instructors, durations, and costs.
+---
 
-- **User Authentication:**
-  - Create and manage user accounts securely.
+## Demo Accounts
 
-- **Role-Based Dashboards:**
-  - **Student Dashboard:**
-    - View enrolled courses, track progress, and access learning materials.
-    - Participate in community discussions and share video links with batchmates.
+> **These accounts are provided for testing purposes only.**
 
-  - **Instructor Dashboard:**
-    - Manage and create courses, including video modules, quizzes, assignments, and notes.
-    - Track student progress and engage in course-specific discussions.
+### Admin Dashboard
+- **Email:** `admin@123.com`
+- **Password:** `Admin@123.com`
 
-  - **Admin Dashboard:**
-    - Manage user accounts, courses, and community discussions.
-    - Monitor and moderate user activities.
+### Instructor Dashboard
+- **Email:** `instructordemo@coursehub.com`
+- **Password:** `Admin@123.com`
 
-  - **Developer Dashboard:**
-    - Access tools and features for platform development and maintenance.
-    - Monitor system performance and handle technical aspects.
-      
-  - **Editor Dashboard:**
-    - Access tools and features for platform development and maintenance.
-    - Monitor system performance and handle technical aspects.
+Use these accounts to explore different dashboards and platform features.
 
-- **Shopping Cart and Payment:**
-  - Add courses to a shopping cart and securely complete transactions using Stripe and SSL Commerce.
+---
 
-- **Activity Tracking:**
-  - Monitor course progress, completion percentages, grades, and achievements.
+# Features
 
-- **Community Forum:**
-  - Engage in discussions with peers, categorized by course or topic.
+## Student Features
 
-- **Video Sharing:**
-  - Share video links with batchmates, allowing for comments and likes.
+- Browse and search available courses
+- View detailed course information
+- Purchase courses using **Stripe** or **SSLCommerz**
+- Enroll in purchased courses
+- Watch course videos and learning materials
+- Track enrolled courses
+- Update personal profile
 
-- **Notifications:**
-  - Receive updates on new content, discussions, and announcements.
+---
 
-- **Responsive Design:**
-  - Access the platform seamlessly across various devices.
+## Instructor Features
 
-- **Search Functionality:**
-  - Utilize a robust search feature for courses, discussions, and user profiles.
+- Create new courses
+- Edit course information
+- Upload course thumbnails
+- Upload videos and learning resources
+- Organize course content into modules
+- Monitor enrolled students
+- Manage course materials after publishing
 
-- **User Profiles:**
-  - Customize user profiles and display achievements and badges.
+---
 
-- **Feedback and Ratings:**
-  - Provide feedback and ratings for courses.
+## Admin Features
 
-- **Admin Panel:**
-  - Manage courses, user accounts, and community forum discussions.
-  - Monitor and moderate user activities.
+- Manage all users
+- Change user roles (Student, Instructor, Admin)
+- Review newly submitted courses
+- Approve, Reject, or Keep courses Pending
+- Monitor platform activities
+- Manage published courses
 
-- **Security Measures:**
-  - Implement protocols to secure user data and transactions.
+---
 
-- **API Integration:**
-  - Integrate APIs for secure payment processing.
+## Authentication & Security
 
-## Getting Started
+- Firebase Authentication
+- JWT Authorization
+- Role-Based Access Control (RBAC)
+- Protected API Routes
+- Secure Password & Token Handling
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/speakup.git
-   cd speakup
+---
+
+## Payment Integration
+
+- Stripe Payment Gateway
+- SSLCommerz Payment Gateway
+- Secure Checkout Experience
+
+---
+
+## Additional Features
+
+- Responsive UI
+- Course Search & Filtering
+- Dynamic Dashboards
+- Course Status Management
+- Modern User Interface
+- RESTful API Architecture
+
+---
+
+# Tech Stack
+
+### Frontend
+
+- React.js
+- Redux Toolkit
+- React Router
+- Firebase Authentication
+- Axios
+- Tailwind CSS
+- Modern React Libraries
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
+- Role-Based Access Control (RBAC)
+
+### Payment
+
+- Stripe
+- SSLCommerz
+
+### Tools
+
+- Git
+- GitHub
+- Postman
+- Render
+- Firebase
+
+---
+
+# Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/coursehub.git
+cd coursehub
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
