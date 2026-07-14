@@ -128,7 +128,7 @@ Use these accounts to explore different dashboards and platform features.
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/coursehub.git
+git clone https://github.com/raihanuldev/coursehub.git
 cd coursehub
 ```
 
