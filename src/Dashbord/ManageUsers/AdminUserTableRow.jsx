@@ -54,7 +54,7 @@ const AdminUserTableRow = ({ user, index, refetch }) => {
 
     setLoading(true);
     try {
-      await instance.put(`/instructor/make-instructor/${user._id}`);
+      await instance.put(`/instructor/make-instructors/${user._id}`);
       refetch();
       Swal.fire("Success", "User is now Instructor", "success");
     } catch {
